@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/index",
+    "pages/help/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "去哪儿旅游",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+ "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "source/icon/aboard.png",
+            "selectedIconPath": "source/icon/aboard.png"
+        },
+        {
+            "pagePath": "pages/my/index",
+            "text": "我的",
+            "iconPath": "source/icon/my.png",
+            "selectedIconPath": "source/icon/my.png"
+        },
+        {
+            "pagePath": "pages/help/index",
+            "text": "帮助",
+            "iconPath": "source/icon/help.png",
+            "selectedIconPath": "source/icon/help.png"
+        }
+    ]
+}
+}

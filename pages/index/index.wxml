@@ -1,0 +1,97 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='topcontent'>
+        <swiper autoplay='true' indicator-dots="true" circular="true">
+            <block class="swiper"  wx:for="{{url}}">
+                <swiper-item>
+                    <image src="{{item}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class='middlecontent'>
+            <view class='middlecontent-top'>
+                <view class="middlecontent-top-left">
+                    <label class='font' bindtap='getmsg()'>酒店</label>
+                    <image src='http://s.qunarzz.com/touch_home/imgs/hotel.png' class="icon"></image>
+                </view>
+                <view class="middlecontent-top-middle">
+                    <view  class="middlecontent-top-middle-top">
+                        <label class='font-small'>特价酒店</label>
+                    </view>
+                    <view class="middlecontent-top-middle-bottom">
+                        <label class='font-small'>客栈</label>
+                    </view>
+                </view>
+                <view class="middlecontent-top-right">
+                    <view  class="middlecontent-top-middle-top">
+                        <label class='font-small'>海外酒店</label>
+                    </view>
+                    <view class="middlecontent-top-middle-bottom">
+                        <label class='font-small'>民宿</label>
+                    </view>
+                </view>
+            </view>
+            <view class='middlecontent-middle'>
+                <view class='middlecontent-top-left'>
+                <label class='font'>机票</label>
+                <image src='http://s.qunarzz.com/touch_home/imgs/flight.png' class="icon"></image>
+                </view>
+                <view class='middlecontent-top-middle'>
+                    <view  class="middlecontent-top-middle-top">
+                         <label class='font-small'>特价机票</label>
+                    </view>
+                    <view class="middlecontent-top-middle-bottom">
+                        <label class='font-small'>火车票</label>
+                    </view>
+                </view>
+                <view class='middlecontent-top-right'>
+                    <view  class="middlecontent-top-middle-top">
+                        <label class='font-small'>汽车票·船票</label>
+                    </view>
+                    <view class="middlecontent-top-middle-bottom">
+                        <label class='font-small'>专车·自驾</label>
+                    </view>
+                </view>
+            </view>
+            <view class='middlecontent-bottom'>
+                <view class='middlecontent-top-left'>
+                <label class='font'>度假</label>
+                <image src='http:////s.qunarzz.com/touch_home/imgs/holiday.png' class="icon"></image>
+                </view>
+                <view class='middlecontent-top-middle'>
+                    <view  class="middlecontent-top-middle-top">
+                        <label class='font-small'>景点·门票</label>
+                    </view>
+                    <view class="middlecontent-top-middle-bottom">
+                        <label class='font-small'>自由行</label>
+                    </view>
+                </view>
+                <view class='middlecontent-top-right'>
+                    <view  class="middlecontent-top-middle-top">
+                        <label class='font-small'>旅游团购</label>
+                    </view>
+                    <view class="middlecontent-top-middle-bottom">
+                        <label class='font-small'>周边·短途</label>
+                    </view>
+                </view>
+            </view>
+             <view class='middlecontent-end'>
+                <view class='middlecontent-top-left'> 
+                    <label class='font-small'>金融·理财</label>
+                </view>
+                <view class='middlecontent-top-middle'>
+                    <label class='font-small'>保险·车险</label>
+                </view>
+                <view class='middlecontent-top-right'>
+                    <label class='font-small'>全球购</label>
+                </view>
+             </view>
+    </view>
+    <view class="bottomcontent">
+            <view class='bottomcontent-part ' wx:for="{{icon}}">
+                    <image src='{{item.url}}'></image>
+                    <label class="">{{item.name}}</label>
+            </view>
+    </view>
+</view>

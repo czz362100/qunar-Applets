@@ -1,0 +1,126 @@
+/**index.wxss**/
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%
+}
+.topcontent {
+    width: 100%;
+    position: absolute;
+    height: 184rpx;
+    top: 0;
+}
+.bottomcontent{
+    margin-top:20rpx;
+    width: 100%;
+    height: 316rpx;
+}
+.bottomcontent-part{
+    position: relative;
+    float: left;
+    height: 50%;
+    width: 25%;
+    text-align: center;
+}
+.bottomcontent-part label{
+    display: block;
+    height: 52rpx;
+    width: 166rpx;
+    font-size: 30rpx;
+}
+.bottomcontent-part image{
+    margin-left: 50rpx;
+    display: block;
+    width: 66rpx;
+    height: 66rpx;
+}
+swiper {
+    width: 100%;
+    height: 100%;
+}
+.topcontent image {
+    width: 100%;
+    height: 100%;
+}
+
+.middlecontent{
+    width: 100%;
+    height: 722rpx;
+    border-radius: 16rpx;
+}
+.middlecontent-top{
+    width: 100%;
+    height: 200rpx;
+    background:  linear-gradient(to right,#fa5956,#fa9b4d);
+    padding-left: 1px;
+    border-bottom: #fff 1px solid;
+}
+.middlecontent-top-left{
+    position: relative;
+    display: block;
+    float: left;
+    width: 33%;
+    height: 100%;
+    border-right: solid 1px #fff;
+    text-align: center;
+}
+.icon{
+    position: absolute;
+    left: 85rpx;
+    bottom: 0px;
+    height: 84rpx;
+    width: 92rpx;
+}
+.font{
+    position: relative;
+    top: 30rpx;
+    height: 64rpx;
+    width: 62rpx;
+    color: #fff
+}
+.font-small{
+    position: relative;
+    top: 30rpx;
+    height: 64rpx;
+    width: 62rpx;
+    color: #fff
+}
+.middlecontent-top-middle{
+    display: block;
+    float: left;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    border-right: solid 1px #fff;
+}
+.middlecontent-top-middle-top{
+    display: block;
+    width: 100%;
+    height: 50%;
+    border-bottom: solid 1px #fff;
+    text-align: center;
+}
+.middlecontent-top-right{
+    display: block;
+    float: left;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+.middlecontent-middle{
+    width: 100%;
+    height: 200rpx;
+    background: linear-gradient(to right,#4b8fed,#53bced);
+     border-bottom: #fff 1px solid;
+}
+.middlecontent-bottom{
+    width: 100%;
+    height: 200rpx;
+    background: linear-gradient(to right,#34c2aa,#6cd557);
+    border-bottom: #fff 1px solid;
+}
+.middlecontent-end{
+    width: 100%;
+    height: 110rpx;
+    background: linear-gradient(to right,#FFB90F,#FF4500)
+}

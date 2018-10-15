@@ -1,0 +1,8 @@
+<view class='container'>
+    <view class='container-top'>
+        <!-- <image src='{{topimgurl}}'></image> -->
+    </view>
+    <view class='container-header'></view>
+    <view class='container-middle'></view>
+    <view class='container-bottom'></view>
+</view>
